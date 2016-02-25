@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828508CC1C7EFD21008D274B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508CB1C7EFD21008D274B /* main.m */; };
+		828508CF1C7EFD21008D274B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508CE1C7EFD21008D274B /* AppDelegate.m */; };
+		828508D21C7EFD21008D274B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508D11C7EFD21008D274B /* ViewController.m */; };
+		828508D51C7EFD21008D274B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828508D31C7EFD21008D274B /* Main.storyboard */; };
+		828508D71C7EFD21008D274B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828508D61C7EFD21008D274B /* Images.xcassets */; };
+		828508DA1C7EFD21008D274B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828508D81C7EFD21008D274B /* LaunchScreen.xib */; };
+		828508E61C7EFD21008D274B /* GoogleAnalyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508E51C7EFD21008D274B /* GoogleAnalyticsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		828508E01C7EFD21008D274B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828508BE1C7EFD21008D274B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828508C51C7EFD21008D274B;
+			remoteInfo = GoogleAnalytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		828508C61C7EFD21008D274B /* GoogleAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828508CA1C7EFD21008D274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828508CB1C7EFD21008D274B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		828508CD1C7EFD21008D274B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		828508CE1C7EFD21008D274B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		828508D01C7EFD21008D274B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		828508D11C7EFD21008D274B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		828508D41C7EFD21008D274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		828508D61C7EFD21008D274B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		828508D91C7EFD21008D274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		828508DF1C7EFD21008D274B /* GoogleAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		828508E41C7EFD21008D274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828508E51C7EFD21008D274B /* GoogleAnalyticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828508C31C7EFD21008D274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828508DC1C7EFD21008D274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828508BD1C7EFD21008D274B = {
+			isa = PBXGroup;
+			children = (
+				828508C81C7EFD21008D274B /* GoogleAnalytics */,
+				828508E21C7EFD21008D274B /* GoogleAnalyticsTests */,
+				828508C71C7EFD21008D274B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828508C71C7EFD21008D274B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828508C61C7EFD21008D274B /* GoogleAnalytics.app */,
+				828508DF1C7EFD21008D274B /* GoogleAnalyticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828508C81C7EFD21008D274B /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				828508CD1C7EFD21008D274B /* AppDelegate.h */,
+				828508CE1C7EFD21008D274B /* AppDelegate.m */,
+				828508D01C7EFD21008D274B /* ViewController.h */,
+				828508D11C7EFD21008D274B /* ViewController.m */,
+				828508D31C7EFD21008D274B /* Main.storyboard */,
+				828508D61C7EFD21008D274B /* Images.xcassets */,
+				828508D81C7EFD21008D274B /* LaunchScreen.xib */,
+				828508C91C7EFD21008D274B /* Supporting Files */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		828508C91C7EFD21008D274B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828508CA1C7EFD21008D274B /* Info.plist */,
+				828508CB1C7EFD21008D274B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		828508E21C7EFD21008D274B /* GoogleAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				828508E51C7EFD21008D274B /* GoogleAnalyticsTests.m */,
+				828508E31C7EFD21008D274B /* Supporting Files */,
+			);
+			path = GoogleAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		828508E31C7EFD21008D274B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				828508E41C7EFD21008D274B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		828508C51C7EFD21008D274B /* GoogleAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828508E91C7EFD21008D274B /* Build configuration list for PBXNativeTarget "GoogleAnalytics" */;
+			buildPhases = (
+				828508C21C7EFD21008D274B /* Sources */,
+				828508C31C7EFD21008D274B /* Frameworks */,
+				828508C41C7EFD21008D274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAnalytics;
+			productName = GoogleAnalytics;
+			productReference = 828508C61C7EFD21008D274B /* GoogleAnalytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		828508DE1C7EFD21008D274B /* GoogleAnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828508EC1C7EFD21008D274B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTests" */;
+			buildPhases = (
+				828508DB1C7EFD21008D274B /* Sources */,
+				828508DC1C7EFD21008D274B /* Frameworks */,
+				828508DD1C7EFD21008D274B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828508E11C7EFD21008D274B /* PBXTargetDependency */,
+			);
+			name = GoogleAnalyticsTests;
+			productName = GoogleAnalyticsTests;
+			productReference = 828508DF1C7EFD21008D274B /* GoogleAnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828508BE1C7EFD21008D274B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Asiantech;
+				TargetAttributes = {
+					828508C51C7EFD21008D274B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					828508DE1C7EFD21008D274B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 828508C51C7EFD21008D274B;
+					};
+				};
+			};
+			buildConfigurationList = 828508C11C7EFD21008D274B /* Build configuration list for PBXProject "GoogleAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828508BD1C7EFD21008D274B;
+			productRefGroup = 828508C71C7EFD21008D274B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828508C51C7EFD21008D274B /* GoogleAnalytics */,
+				828508DE1C7EFD21008D274B /* GoogleAnalyticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828508C41C7EFD21008D274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828508D51C7EFD21008D274B /* Main.storyboard in Resources */,
+				828508DA1C7EFD21008D274B /* LaunchScreen.xib in Resources */,
+				828508D71C7EFD21008D274B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828508DD1C7EFD21008D274B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828508C21C7EFD21008D274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828508D21C7EFD21008D274B /* ViewController.m in Sources */,
+				828508CF1C7EFD21008D274B /* AppDelegate.m in Sources */,
+				828508CC1C7EFD21008D274B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828508DB1C7EFD21008D274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828508E61C7EFD21008D274B /* GoogleAnalyticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		828508E11C7EFD21008D274B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828508C51C7EFD21008D274B /* GoogleAnalytics */;
+			targetProxy = 828508E01C7EFD21008D274B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		828508D31C7EFD21008D274B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828508D41C7EFD21008D274B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		828508D81C7EFD21008D274B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828508D91C7EFD21008D274B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828508E71C7EFD21008D274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		828508E81C7EFD21008D274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		828508EA1C7EFD21008D274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleAnalytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		828508EB1C7EFD21008D274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleAnalytics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		828508ED1C7EFD21008D274B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAnalytics.app/GoogleAnalytics";
+			};
+			name = Debug;
+		};
+		828508EE1C7EFD21008D274B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAnalytics.app/GoogleAnalytics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828508C11C7EFD21008D274B /* Build configuration list for PBXProject "GoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828508E71C7EFD21008D274B /* Debug */,
+				828508E81C7EFD21008D274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828508E91C7EFD21008D274B /* Build configuration list for PBXNativeTarget "GoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828508EA1C7EFD21008D274B /* Debug */,
+				828508EB1C7EFD21008D274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		828508EC1C7EFD21008D274B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828508ED1C7EFD21008D274B /* Debug */,
+				828508EE1C7EFD21008D274B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828508BE1C7EFD21008D274B /* Project object */;
+}
