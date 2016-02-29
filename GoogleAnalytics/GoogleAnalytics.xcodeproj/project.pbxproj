@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B6D53901C82FC040077FCA0 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D538E1C82FC040077FCA0 /* HomeVC.m */; };
+		4B6D53911C82FC040077FCA0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D538F1C82FC040077FCA0 /* HomeVC.xib */; };
+		4BCB032F1C84AD42009BCCA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB032E1C84AD42009BCCA1 /* Images.xcassets */; };
+		4BCB03351C84B44E009BCCA1 /* InGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB03331C84B44E009BCCA1 /* InGameVC.m */; };
+		4BCB03361C84B44E009BCCA1 /* InGameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB03341C84B44E009BCCA1 /* InGameVC.xib */; };
+		4BCB033C1C84B7A4009BCCA1 /* DifficultyChooseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB033A1C84B7A4009BCCA1 /* DifficultyChooseVC.m */; };
+		4BCB033D1C84B7A4009BCCA1 /* DifficultyChooseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB033B1C84B7A4009BCCA1 /* DifficultyChooseVC.xib */; };
+		4BCB03411C84B7B7009BCCA1 /* LevelSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB033F1C84B7B7009BCCA1 /* LevelSelectVC.m */; };
+		4BCB03421C84B7B7009BCCA1 /* LevelSelectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB03401C84B7B7009BCCA1 /* LevelSelectVC.xib */; };
 		828508CC1C7EFD21008D274B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508CB1C7EFD21008D274B /* main.m */; };
 		828508CF1C7EFD21008D274B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508CE1C7EFD21008D274B /* AppDelegate.m */; };
-		828508D21C7EFD21008D274B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508D11C7EFD21008D274B /* ViewController.m */; };
-		828508D51C7EFD21008D274B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828508D31C7EFD21008D274B /* Main.storyboard */; };
-		828508D71C7EFD21008D274B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828508D61C7EFD21008D274B /* Images.xcassets */; };
 		828508DA1C7EFD21008D274B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828508D81C7EFD21008D274B /* LaunchScreen.xib */; };
 		828508E61C7EFD21008D274B /* GoogleAnalyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 828508E51C7EFD21008D274B /* GoogleAnalyticsTests.m */; };
 /* End PBXBuildFile section */
@@ -27,15 +33,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B6D538D1C82FC040077FCA0 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		4B6D538E1C82FC040077FCA0 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		4B6D538F1C82FC040077FCA0 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		4BCB032E1C84AD42009BCCA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BCB03321C84B44E009BCCA1 /* InGameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameVC.h; sourceTree = "<group>"; };
+		4BCB03331C84B44E009BCCA1 /* InGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameVC.m; sourceTree = "<group>"; };
+		4BCB03341C84B44E009BCCA1 /* InGameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InGameVC.xib; sourceTree = "<group>"; };
+		4BCB03391C84B7A4009BCCA1 /* DifficultyChooseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifficultyChooseVC.h; sourceTree = "<group>"; };
+		4BCB033A1C84B7A4009BCCA1 /* DifficultyChooseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifficultyChooseVC.m; sourceTree = "<group>"; };
+		4BCB033B1C84B7A4009BCCA1 /* DifficultyChooseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DifficultyChooseVC.xib; sourceTree = "<group>"; };
+		4BCB033E1C84B7B7009BCCA1 /* LevelSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectVC.h; sourceTree = "<group>"; };
+		4BCB033F1C84B7B7009BCCA1 /* LevelSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectVC.m; sourceTree = "<group>"; };
+		4BCB03401C84B7B7009BCCA1 /* LevelSelectVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelSelectVC.xib; sourceTree = "<group>"; };
 		828508C61C7EFD21008D274B /* GoogleAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		828508CA1C7EFD21008D274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		828508CB1C7EFD21008D274B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		828508CD1C7EFD21008D274B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		828508CE1C7EFD21008D274B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		828508D01C7EFD21008D274B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		828508D11C7EFD21008D274B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		828508D41C7EFD21008D274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		828508D61C7EFD21008D274B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		828508D91C7EFD21008D274B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		828508DF1C7EFD21008D274B /* GoogleAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		828508E41C7EFD21008D274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +75,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B6D538C1C82FBC80077FCA0 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D538D1C82FC040077FCA0 /* HomeVC.h */,
+				4B6D538E1C82FC040077FCA0 /* HomeVC.m */,
+				4B6D538F1C82FC040077FCA0 /* HomeVC.xib */,
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
+		4BCB03311C84B420009BCCA1 /* InGameVC */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB03321C84B44E009BCCA1 /* InGameVC.h */,
+				4BCB03331C84B44E009BCCA1 /* InGameVC.m */,
+				4BCB03341C84B44E009BCCA1 /* InGameVC.xib */,
+			);
+			name = InGameVC;
+			sourceTree = "<group>";
+		};
+		4BCB03371C84B6AE009BCCA1 /* LevelSelectVC */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB033E1C84B7B7009BCCA1 /* LevelSelectVC.h */,
+				4BCB033F1C84B7B7009BCCA1 /* LevelSelectVC.m */,
+				4BCB03401C84B7B7009BCCA1 /* LevelSelectVC.xib */,
+			);
+			name = LevelSelectVC;
+			sourceTree = "<group>";
+		};
+		4BCB03381C84B6D6009BCCA1 /* DifficultyChooseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB03391C84B7A4009BCCA1 /* DifficultyChooseVC.h */,
+				4BCB033A1C84B7A4009BCCA1 /* DifficultyChooseVC.m */,
+				4BCB033B1C84B7A4009BCCA1 /* DifficultyChooseVC.xib */,
+			);
+			name = DifficultyChooseVC;
+			sourceTree = "<group>";
+		};
 		828508BD1C7EFD21008D274B = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +136,12 @@
 		828508C81C7EFD21008D274B /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				4BCB03381C84B6D6009BCCA1 /* DifficultyChooseVC */,
+				4BCB03371C84B6AE009BCCA1 /* LevelSelectVC */,
+				4BCB03311C84B420009BCCA1 /* InGameVC */,
+				4B6D538C1C82FBC80077FCA0 /* HomeVC */,
 				828508CD1C7EFD21008D274B /* AppDelegate.h */,
 				828508CE1C7EFD21008D274B /* AppDelegate.m */,
-				828508D01C7EFD21008D274B /* ViewController.h */,
-				828508D11C7EFD21008D274B /* ViewController.m */,
-				828508D31C7EFD21008D274B /* Main.storyboard */,
-				828508D61C7EFD21008D274B /* Images.xcassets */,
-				828508D81C7EFD21008D274B /* LaunchScreen.xib */,
 				828508C91C7EFD21008D274B /* Supporting Files */,
 			);
 			path = GoogleAnalytics;
@@ -96,6 +150,8 @@
 		828508C91C7EFD21008D274B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4BCB032E1C84AD42009BCCA1 /* Images.xcassets */,
+				828508D81C7EFD21008D274B /* LaunchScreen.xib */,
 				828508CA1C7EFD21008D274B /* Info.plist */,
 				828508CB1C7EFD21008D274B /* main.m */,
 			);
@@ -199,9 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828508D51C7EFD21008D274B /* Main.storyboard in Resources */,
+				4BCB032F1C84AD42009BCCA1 /* Images.xcassets in Resources */,
 				828508DA1C7EFD21008D274B /* LaunchScreen.xib in Resources */,
-				828508D71C7EFD21008D274B /* Images.xcassets in Resources */,
+				4B6D53911C82FC040077FCA0 /* HomeVC.xib in Resources */,
+				4BCB03421C84B7B7009BCCA1 /* LevelSelectVC.xib in Resources */,
+				4BCB03361C84B44E009BCCA1 /* InGameVC.xib in Resources */,
+				4BCB033D1C84B7A4009BCCA1 /* DifficultyChooseVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828508D21C7EFD21008D274B /* ViewController.m in Sources */,
+				4B6D53901C82FC040077FCA0 /* HomeVC.m in Sources */,
 				828508CF1C7EFD21008D274B /* AppDelegate.m in Sources */,
 				828508CC1C7EFD21008D274B /* main.m in Sources */,
+				4BCB03351C84B44E009BCCA1 /* InGameVC.m in Sources */,
+				4BCB033C1C84B7A4009BCCA1 /* DifficultyChooseVC.m in Sources */,
+				4BCB03411C84B7B7009BCCA1 /* LevelSelectVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		828508D31C7EFD21008D274B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				828508D41C7EFD21008D274B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		828508D81C7EFD21008D274B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +470,7 @@
 				828508EB1C7EFD21008D274B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		828508EC1C7EFD21008D274B /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +479,7 @@
 				828508EE1C7EFD21008D274B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

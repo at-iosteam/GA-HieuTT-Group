@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeVC.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    HomeVC *homevc = [[HomeVC alloc] initWithNibName:@"HomeVC" bundle:nil];
+    _navigationcontroller = [[UINavigationController alloc] initWithRootViewController:homevc];
+    self.window.rootViewController = _navigationcontroller;
+    _navigationcontroller.navigationBarHidden = YES;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

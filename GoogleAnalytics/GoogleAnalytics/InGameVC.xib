@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InGameVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="BackGroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="pkY-h2-2gb">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="LifeImage" translatesAutoresizingMaskIntoConstraints="NO" id="1dQ-ij-Dck">
+                    <rect key="frame" x="84" y="33" width="126" height="35"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="ShieldImage" translatesAutoresizingMaskIntoConstraints="NO" id="kZI-tK-K3Y">
+                    <rect key="frame" x="157" y="3" width="126" height="35"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="EnergyImage" translatesAutoresizingMaskIntoConstraints="NO" id="jlo-51-Ug5">
+                    <rect key="frame" x="14" y="2" width="126" height="36"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="LevelProcess" translatesAutoresizingMaskIntoConstraints="NO" id="dGB-ga-FlX">
+                    <rect key="frame" x="303" y="8" width="241" height="17"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="EnergyProcessIcon" translatesAutoresizingMaskIntoConstraints="NO" id="pOW-zu-gP1">
+                    <rect key="frame" x="41" y="12" width="70" height="17"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="LifeProcessIcon" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-HW-rxd">
+                    <rect key="frame" x="119" y="41" width="53" height="20"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="ShieldProcessIcon" translatesAutoresizingMaskIntoConstraints="NO" id="wJj-s1-YUg">
+                    <rect key="frame" x="185" y="12" width="81" height="17"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWr-K1-gnv">
+                    <rect key="frame" x="510" y="272" width="40" height="40"/>
+                    <state key="normal" image="SettingButton"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNH-a3-570">
+                    <rect key="frame" x="510" y="171" width="40" height="40"/>
+                    <state key="normal" image="StoreButton"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2f-96-82I">
+                    <rect key="frame" x="510" y="219" width="40" height="40"/>
+                    <state key="normal" image="PauseButton"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="207" y="263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackGroundImage" width="1120" height="713"/>
+        <image name="EnergyImage" width="216" height="61"/>
+        <image name="EnergyProcessIcon" width="120" height="31"/>
+        <image name="LevelProcess" width="666" height="51"/>
+        <image name="LifeImage" width="233" height="57"/>
+        <image name="LifeProcessIcon" width="83" height="33"/>
+        <image name="PauseButton" width="69" height="71"/>
+        <image name="SettingButton" width="69" height="71"/>
+        <image name="ShieldImage" width="228" height="65"/>
+        <image name="ShieldProcessIcon" width="135" height="33"/>
+        <image name="StoreButton" width="69" height="71"/>
+    </resources>
+</document>
