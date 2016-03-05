@@ -7,6 +7,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InGameVC">
             <connections>
+                <outlet property="characterGame" destination="231-1S-cqv" id="bZG-pJ-W4C"/>
+                <outlet property="menuButton" destination="EMl-xx-Bqg" id="xg9-Mb-pzB"/>
+                <outlet property="pauseImage" destination="cEP-3e-YKb" id="Zfl-zw-Mr1"/>
+                <outlet property="playSmallButton" destination="chE-G0-qVg" id="CMK-nU-Wql"/>
+                <outlet property="replayButton" destination="Jhg-Xa-pMG" id="Q0g-mL-PFx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -40,22 +45,72 @@
                     <rect key="frame" x="185" y="12" width="81" height="17"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWr-K1-gnv">
-                    <rect key="frame" x="510" y="272" width="40" height="40"/>
+                    <rect key="frame" x="14" y="147" width="40" height="40"/>
                     <state key="normal" image="SettingButton"/>
+                    <connections>
+                        <action selector="didSelectSetting:" destination="-1" eventType="touchUpInside" id="Ci7-Sg-ziT"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNH-a3-570">
-                    <rect key="frame" x="510" y="171" width="40" height="40"/>
+                    <rect key="frame" x="14" y="46" width="40" height="40"/>
                     <state key="normal" image="StoreButton"/>
+                    <connections>
+                        <action selector="didSelectStore:" destination="-1" eventType="touchUpInside" id="KSy-3O-DpB"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2f-96-82I">
-                    <rect key="frame" x="510" y="219" width="40" height="40"/>
+                    <rect key="frame" x="14" y="94" width="40" height="40"/>
                     <state key="normal" image="PauseButton"/>
+                    <connections>
+                        <action selector="didSelectPause:" destination="-1" eventType="touchUpInside" id="hmc-vS-5SV"/>
+                    </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4K7-Sk-6jc">
+                    <rect key="frame" x="497" y="234" width="40" height="40"/>
+                    <state key="normal" image="PlayButton"/>
+                    <connections>
+                        <action selector="didSelectHit2:" destination="-1" eventType="touchUpInside" id="4Ku-Fp-8jN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmY-gC-yt0">
+                    <rect key="frame" x="449" y="267" width="40" height="40"/>
+                    <state key="normal" image="PlusButton"/>
+                    <connections>
+                        <action selector="didSelectHit1:" destination="-1" eventType="touchUpInside" id="wbH-rE-za6"/>
+                    </connections>
+                </button>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="PauseImage" translatesAutoresizingMaskIntoConstraints="NO" id="cEP-3e-YKb">
+                    <rect key="frame" x="172" y="86" width="224" height="101"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chE-G0-qVg">
+                    <rect key="frame" x="192" y="125" width="47" height="47"/>
+                    <state key="normal" image="PlaySmallButton"/>
+                    <connections>
+                        <action selector="didSelectPlay:" destination="-1" eventType="touchUpInside" id="TAl-QH-yJ3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jhg-Xa-pMG">
+                    <rect key="frame" x="261" y="125" width="47" height="47"/>
+                    <state key="normal" image="ReplayButton"/>
+                    <connections>
+                        <action selector="didSelectReplay:" destination="-1" eventType="touchUpInside" id="Dvt-FM-E6J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMl-xx-Bqg">
+                    <rect key="frame" x="327" y="125" width="47" height="47"/>
+                    <state key="normal" image="MenuButton"/>
+                    <connections>
+                        <action selector="didSelectMenu:" destination="-1" eventType="touchUpInside" id="xCQ-Sw-L6U"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="231-1S-cqv">
+                    <rect key="frame" x="222" y="203" width="55" height="71"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="207" y="263"/>
+            <point key="canvasLocation" x="119" y="399"/>
         </view>
     </objects>
     <resources>
@@ -65,7 +120,13 @@
         <image name="LevelProcess" width="666" height="51"/>
         <image name="LifeImage" width="233" height="57"/>
         <image name="LifeProcessIcon" width="83" height="33"/>
+        <image name="MenuButton" width="69" height="71"/>
         <image name="PauseButton" width="69" height="71"/>
+        <image name="PauseImage" width="391" height="177"/>
+        <image name="PlayButton" width="108" height="109"/>
+        <image name="PlaySmallButton" width="69" height="71"/>
+        <image name="PlusButton" width="69" height="71"/>
+        <image name="ReplayButton" width="69" height="71"/>
         <image name="SettingButton" width="69" height="71"/>
         <image name="ShieldImage" width="228" height="65"/>
         <image name="ShieldProcessIcon" width="135" height="33"/>
