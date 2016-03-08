@@ -8,7 +8,7 @@
 
 #import "HomeVC.h"
 #import "LevelSelectVC.h"
-
+#import <Google/Analytics.h>
 
 @interface HomeVC ()
 
@@ -18,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:@"home"];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+
 }
 
 - (void)didReceiveMemoryWarning {

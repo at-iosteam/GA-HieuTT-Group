@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "HomeVC.h"
+#import <Google/Analytics.h>
+
 
 @interface AppDelegate ()
 
@@ -23,6 +25,22 @@
     _navigationcontroller = [[UINavigationController alloc] initWithRootViewController:homevc];
     self.window.rootViewController = _navigationcontroller;
     _navigationcontroller.navigationBarHidden = YES;
+    
+    
+    
+    
+    // Configure tracker from GoogleService-Info.plist.
+    NSError *configureError;
+    [[GGLContext sharedInstance] configureWithError:&configureError];
+    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
+    
+    // Optional: configure GAI options.
+    GAI *gai = [GAI sharedInstance];
+    gai.trackUncaughtExceptions = YES;  // report uncaught exceptions
+    gai.logger.logLevel = kGAILogLevelVerbose;  // remove before app release
+
+    
+    
     [self.window makeKeyAndVisible];
     
     return YES;
