@@ -8,41 +8,20 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="BackGroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="yB3-iu-RAv">
-                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="LoadingCompleteImage" translatesAutoresizingMaskIntoConstraints="NO" id="jeg-d2-vxg">
-                    <rect key="frame" x="54" y="142" width="460" height="35"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="35" id="Aaz-V6-zfy"/>
-                        <constraint firstAttribute="width" constant="460" id="wsn-kR-uTF"/>
-                    </constraints>
-                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thông tin Tuyển Sinh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1A-Mi-gWO">
+                    <rect key="frame" x="20" y="255" width="281" height="58"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstAttribute="bottom" secondItem="yB3-iu-RAv" secondAttribute="bottom" id="6gw-to-Don"/>
-                <constraint firstItem="jeg-d2-vxg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7BJ-kl-Yzl"/>
-                <constraint firstAttribute="trailing" secondItem="yB3-iu-RAv" secondAttribute="trailing" id="9Gh-gQ-4Xk"/>
-                <constraint firstItem="yB3-iu-RAv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BQb-hV-0cO"/>
-                <constraint firstItem="yB3-iu-RAv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CYe-bM-46o"/>
-                <constraint firstItem="yB3-iu-RAv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FYd-8y-0vZ"/>
-                <constraint firstAttribute="bottom" secondItem="yB3-iu-RAv" secondAttribute="bottom" id="G5s-DH-wOw"/>
-                <constraint firstAttribute="trailing" secondItem="yB3-iu-RAv" secondAttribute="trailing" id="UNr-Qo-JJP"/>
-                <constraint firstItem="jeg-d2-vxg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="X6T-8K-bar"/>
-                <constraint firstItem="yB3-iu-RAv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bkU-bI-XNZ"/>
-            </constraints>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
-            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="505" y="269"/>
+            <point key="canvasLocation" x="307" y="281"/>
         </view>
     </objects>
-    <resources>
-        <image name="BackGroundImage" width="1120" height="713"/>
-        <image name="LoadingCompleteImage" width="488" height="47"/>
-    </resources>
 </document>
